@@ -2,6 +2,8 @@
 
 ## master
 
+- Disable Multipath TCP for listeners (`godebug multipathtcp=0`).
+
 ## 1.6.20 (2026-10-21)
 
 - Upgrade to Go tool chain 1.27.3 (fix eMuhdra CVE).

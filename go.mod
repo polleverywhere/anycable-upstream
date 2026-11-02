@@ -4,6 +4,9 @@ go 1.27.0
 
 toolchain go1.27.3
 
+// Disable Multipath TCP (enabled by default for listeners since Go 1.24)
+godebug multipathtcp=0
+
 // use vendored go-mruby
 replace github.com/mitchellh/go-mruby => ./vendorlib/go-mruby
 
